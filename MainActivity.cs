@@ -44,6 +44,15 @@ namespace AndroidDBDemo
             //To update Record
             Button btnUpdate = FindViewById<Button>(Resource.Id.btnUpdate);
             btnUpdate.Click += btnUpdate_Click;
+
+            // to Delete the record
+            Button btnDelete = FindViewById<Button>(Resource.Id.btnDelete);
+            btnDelete.Click += btnDelete_Click;
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)

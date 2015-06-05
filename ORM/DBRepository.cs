@@ -26,7 +26,7 @@ namespace AndroidDBDemo.ORM
             string dbPath = Path.Combine(Environment.GetFolderPath
                 (Environment.SpecialFolder.Personal), "ormdemo.db3");
             var db = new SQLiteConnection(dbPath);
-            output += "\nDatabase Created...";
+            output += "\n Database Created...";
             return output;
         }
 
@@ -112,6 +112,17 @@ namespace AndroidDBDemo.ORM
             item.Task = task;
             db.Update(item);
             return "Record Updated...";
+        }
+
+        // Code to remove the record using ORM
+        public string RemoveTask(int id)
+        {
+            string dbPath = Path.Combine(Environment.GetFolderPath
+                (Environment.SpecialFolder.Personal), "ormdemo.db3");
+            var db = new SQLiteConnection(dbPath);;
+            var item = db.Get<ToDoTasks>(id);
+            db.Delete(item);
+            return "Record Deleted..";
         }
     }
 }
