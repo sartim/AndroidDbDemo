@@ -1,0 +1,3 @@
+AndroidDBDemo.InsertTaskActivity;androiddbdemo.InsertTaskActivity
+AndroidDBDemo.MainActivity;androiddbdemo.MainActivity
+AndroidDBDemo.SearchActivity;androiddbdemo.SearchActivity
