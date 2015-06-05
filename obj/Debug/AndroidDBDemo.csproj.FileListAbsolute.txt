@@ -16,3 +16,4 @@ C:\Visual Studio Projects\AndroidDBDemo\AndroidDBDemo\obj\Debug\uploadflags.txt
 C:\Visual Studio Projects\AndroidDBDemo\AndroidDBDemo\obj\Debug\res\layout\inserttasklayout.xml
 C:\Visual Studio Projects\AndroidDBDemo\AndroidDBDemo\obj\Debug\res\layout\searchlayout.xml
 C:\Visual Studio Projects\AndroidDBDemo\AndroidDBDemo\obj\Debug\res\layout\updatetasklayout.xml
+C:\Visual Studio Projects\AndroidDBDemo\AndroidDBDemo\obj\Debug\res\layout\removetasklayout.xml

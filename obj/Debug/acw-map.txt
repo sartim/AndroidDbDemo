@@ -1,3 +1,5 @@
 AndroidDBDemo.InsertTaskActivity;androiddbdemo.InsertTaskActivity
 AndroidDBDemo.MainActivity;androiddbdemo.MainActivity
+AndroidDBDemo.RemoveTaskActivity;androiddbdemo.RemoveTaskActivity
 AndroidDBDemo.SearchActivity;androiddbdemo.SearchActivity
+AndroidDBDemo.UpdateTaskActivity;androiddbdemo.UpdateTaskActivity

@@ -36,8 +36,9 @@ public final class R {
         public static final int home=0x7f030000;
         public static final int inserttasklayout=0x7f030001;
         public static final int main=0x7f030002;
-        public static final int searchlayout=0x7f030003;
-        public static final int updatetasklayout=0x7f030004;
+        public static final int removetasklayout=0x7f030003;
+        public static final int searchlayout=0x7f030004;
+        public static final int updatetasklayout=0x7f030005;
     }
     public static final class string {
         public static final int ApplicationName=0x7f040001;

@@ -22,7 +22,7 @@ namespace AndroidDBDemo.ORM
         public string CreateDB()
         {
             var output = "";
-            output += "Creating if it doesnt exist.";
+            output += "Creating if it doesn't exist.";
             string dbPath = Path.Combine(Environment.GetFolderPath
                 (Environment.SpecialFolder.Personal), "ormdemo.db3");
             var db = new SQLiteConnection(dbPath);
@@ -40,7 +40,7 @@ namespace AndroidDBDemo.ORM
                 (Environment.SpecialFolder.Personal), "ormdemo.db3");
                 var db = new SQLiteConnection(dbPath);
                 db.CreateTable<ToDoTasks>();
-                string result = "Tablr Created successfully....";
+                string result = "Table Created successfully....";
                 return result;
 
             }
@@ -78,7 +78,7 @@ namespace AndroidDBDemo.ORM
             var db = new SQLiteConnection(dbPath);
 
             string output = "";
-            output += "Retrieving ythe ddata using ORM...";
+            output += "Retrieving the data using ORM...";
             var table = db.Table<ToDoTasks>();
             foreach (var item in table)
             {
